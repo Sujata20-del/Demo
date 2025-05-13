@@ -23,7 +23,7 @@ public class firstSeleniumTestcase extends BaseClass {
         Thread.sleep(2000);
 
         String pincode = configReader.getProperty("pincode");
-        System.out.println("******************" + pincode);
+        System.out.println("*********$$$$$$$$$$$$*********" + pincode);
         postPaidFlow.enterPincode(pincode);
 
         WebDriverUtility util = new WebDriverUtility(driver);
